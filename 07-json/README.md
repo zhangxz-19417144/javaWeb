@@ -1,6 +1,6 @@
 ##  JSON入门
 
-**一些重要的概念 **
+**一些重要的概念**
 
 1.全称：javascript object notation
 

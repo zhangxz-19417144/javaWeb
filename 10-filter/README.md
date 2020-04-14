@@ -178,6 +178,7 @@ public class CharacterEncodingFilter implements Filter {
 		req.setCharacterEncoding(encoding);
 		HttpServletResponse res=(HttpServletResponse)response;
 		res.setContentType("text/html;charset="+encoding);
+    //向后传递
 		chain.doFilter(request, response);
 	}
 
